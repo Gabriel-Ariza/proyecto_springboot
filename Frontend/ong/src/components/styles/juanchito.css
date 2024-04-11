@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100vw;
+    height: 20vh;
+    background-color: rgba(255, 96, 96, 0.842);
+}
+
+.padre_titulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+}
+
+.parte1_titulo {
+    width: 60%;
+    background-color: rgba(96, 250, 255, 0.842);
+}
+
+.parte2_titulo {
+    width: 40%;
+    background-color: rgba(247, 255, 142, 0.842);
+}
+
+.titulo {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 65vh;
+    background-color: rgba(161, 255, 162, 0.842);
+}
+.padre_modulos {
+    display: grid;
+    place-items: center;
+    background-color: azure;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Ajusta el tamaño mínimo de las columnas aquí */
+    row-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    column-gap: 20px;
+    justify-content: start;
+    justify-content: center; /* Centra los elementos en el grid */
+}
+.padre_modulos > a {
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+}
+.modulo {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: scale 1s;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.modulo h2 {
+    color: tomato;
+}
+.modulo:hover {
+    scale: 1.1;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgba(130, 96, 255, 0.842);
+}

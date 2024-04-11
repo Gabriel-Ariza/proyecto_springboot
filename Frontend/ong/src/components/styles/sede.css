@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Cormorant+Garamond:wght@400;700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Alike&display=swap');
+
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+
+.padre {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui;
+    max-width: 100vw !important;
+    height: auto;
+    overflow: hidden;
+}
+
+.introduccion {
+    background-color: #3E2B2F;
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+.parte1_introduccion {
+    width: 65%;
+    font-family: roboto;
+    color: #F7E4C9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.parte1_introduccion .logo {
+    width: 15%;
+}
+
+.parte1_introduccion .logo .image_logo {
+    width: 100%;
+    height: 100%;
+    background: url('../../../public/logo.png');
+}
+
+
+.parte1_introduccion .titulo {
+    width: 80%;
+}
+
+.parte1_introduccion .titulo p {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.parte2_introduccion {
+    width: 35%;
+    font-family: 'Comfortaa';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+#unete {
+    background-color: #111111;
+    color: #F7E4C9;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+}
+#dona {
+    background-color: transparent;
+    border: 3px solid #FF895A;
+    color: #F7E4C9;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+}
+.casita {
+    width: 50px;
+    height: 50px;
+}
+.casita svg {
+    height: 100%;
+    width: 100%;
+}
+
+.titulo {
+    background-color: #3E2B2F;
+    border-top: 2px solid #f9d8aa;
+    padding-top: 1vh;
+}
+.titulo span {
+    color: #BC8671;
+}
+.titulo h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #F7E4C9;
+    text-align: center;
+}
+
+.main {
+    width: 100vw;
+    height: auto;
+    background-color: #3E2B2F;
+    color: #F7E4C9;
+}
+
+.main h2 {
+    margin-top: 2vh;
+    padding-left: 5vh;
+    font-size: 3em;
+    font-weight: bold;
+    color: #BC8671;
+    font-family: 'Alegraya';
+}
+.main p {
+    margin-top: 1vh;
+    font-size: 1.4em;
+    padding-left: 3vh;
+}
+
+
+.padre_botones {
+    padding-top: 5vh;
+    background-color: #3E2B2F !important;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    column-gap: 20px;
+    justify-content: start;
+    justify-content: center;
+    height: fit-content;
+    padding-bottom: 5vh;
+}
+
+.padre_botones .container_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+
+.container_button button {
+    height: 90%;
+    width: 80%;
+    font-size: 1.2em;
+    font-weight: 400;
+    background-color: #9E6850;
+    color: #F7E4C9;
+    border: none
+}
+
+
+.renderizado {
+    background-color: #3E2B2F;
+    color: #F7E4C9;
+    height: auto;
+    max-width: 100vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.padre_listas {
+    width: 100vw;
+    max-width: 100vw !important;
+    padding-top: 3vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:5vh;
+}
+
+.tarjeta {
+    background-color: #F7E4C9;
+    color: #111111;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+    box-sizing: border-box;
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "direccion": "Direccion 1",
+        "director": "uno",
+        "envios": [],
+        "ciudad": {
+            "id": 1,
+            "nombre": "Cali"
+        }
+    },
+    {
+        "id": 2,
+        "direccion": "Direccion 2",
+        "director": "DOS",
+        "envios": [],
+        "ciudad": {
+            "id": 2,
+            "nombre": "Barranquilla"
+        }
+    },
+    {
+        "id": 3,
+        "direccion": "Direccion 3",
+        "director": "tres",
+        "envios": [],
+        "ciudad": {
+            "id": 3,
+            "nombre": "Cartagena"
+        }
+    },
+    {
+        "id": 4,
+        "direccion": "Direccion 4",
+        "director": "cuatro",
+        "envios": [],
+        "ciudad": {
+            "id": 4,
+            "nombre": "Medellin"
+        }
+    },
+    {
+        "id": 5,
+        "direccion": "Direccion 5",
+        "director": "cinco",
+        "envios": [],
+        "ciudad": {
+            "id": 5,
+            "nombre": "Bogota"
+        }
+    },
+    {
+        "id": 6,
+        "direccion": "Direccion 6",
+        "director": "seis",
+        "envios": [],
+        "ciudad": {
+            "id": 6,
+            "nombre": "Pereira"
+        }
+    }
+]

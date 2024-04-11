@@ -1,0 +1,35 @@
+los componenetes de react SIEMPRE deben
+ser en PascalCase ej:
+
+MiComponente
+BotonSpecialAmarillo
+DivPadreTarjetas
+
+
+esto porque react no sabe diferenciar si es
+un elemento html o un componente
+
+
+const SpecialButton = ({text}) => {
+    return (
+        <button>
+            {text}
+        </button>
+    )
+}
+
+
+root.render(
+<React.Fragment>
+    <SpecialButton text="primer boton"/>
+    <SpecialButton text="segundo boton"/>
+  </React.Fragment>
+)
+
+
+en el main.jsx react solamente deja renderizar una cosa, asi que si queremos
+renderizar dos o mas cosas sin meterlos en un div, usamos React.fragment
+  <React.Fragment>
+    <button>Hola button</button>
+    <button>Hola button</button>
+  </React.Fragment>
